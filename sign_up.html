@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Bit aanmelding</title>
+</head>
+
+<body>
+
+
+<h1>welcome to the BIT academy</h1>
+
+<p>sign up right here</p>
+
+<form action="#" method="get" class="form-example">
+
+    <label for="name">Name (4 to 16 characters):</label>
+
+    <input type="text" id="name" name="name" required
+           minlength="4" maxlength="16" size="20">
+
+    <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <nummer>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               required>
+        <small>Format: 06-1847-7576</small>
+    </nummer>
+
+    <label for="pet-select">What is your favourite day:</label>
+
+    ​
+
+    <select id="pet-select">
+
+        <option value="">--Please choose an option--</option>
+        1
+        <option value="dog">Noord-Holland</option>
+        2
+        <option value="cat">Friesland</option>
+        3
+        <option value="hamster">Groningen</option>
+        4
+        <option value="Drenthe">Drenthe</option>
+        5
+        <option value="Overijssel">Overijssel</option>
+        6
+        <option value="Flevoland">Flevoland</option>
+        7
+        <option value="Utrecht">Utrecht</option>
+        8
+        <option value="Zuid-Holland">Zuid-Holland</option>
+        9
+        <option value="Zeeland">Zeeland</option>
+        10
+        <option value="Noord-Braband">Noord-Braband</option>
+        11
+        <option value="Limburg">Limburg</option>
+        12
+
+    </select>
+
+    <p>choose your favourite :</p>
+
+    <div>
+        <input type="checkbox" id="scales" name="scales"
+               checked>
+        <label for="horns">monday</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">tuesday</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">wednesday</label>
+    </div>
+
+   <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">thursday</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">friday</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">saturday</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">sunday</label>
+    </div>
+
+
+    <p>Do you like playing soccer?</p>
+
+    <div>
+        <input type="radio" id="huey" name="drone" value="huey"
+               checked>
+        <label for="huey">yes, i do</label>
+    </div>
+
+    <div>
+        <input type="radio" id="dewey" name="drone" value="dewey">
+        <label for="dewey">no, i don't</label>
+    </div>
+
+
+    <note>
+        <p> <span style="border:1px solid black">If you filled in everything correctly you will only need a 4 digit code.
+ </span> </p>
+    </note>
+
+    <input type="text" name="pin" pattern="[0-9]{4}" maxlength="4">
+    <input type="submit" value="Validate">
+
+    <div class="form-example">
+        <input type="submit" value="subscribe right here!">
+    </div>
+
+    <script src="script.js"></script>
+</form>
+
+</body>
+</html>
