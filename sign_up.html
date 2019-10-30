@@ -123,12 +123,9 @@
  </span> </p>
     </note>
 
-    <input type="text" name="pin" pattern="[0-9]{4}" maxlength="4">
-    <input type="submit" value="Validate">
-
-    <div class="form-example">
-        <input type="submit" value="subscribe right here!">
-    </div>
+    <label for="pin">PIN:</label>
+    <input id="pin" type="password" inputmode="numeric" minlength="4"
+           maxlength="4" size="4">
 
     <script src="script.js"></script>
 </form>
