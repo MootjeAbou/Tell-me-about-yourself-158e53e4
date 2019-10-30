@@ -24,11 +24,8 @@ nummer{
     margin: .4rem 0;
 }
 
-p,
-label {
-    font: 1rem 'Fira Sans', sans-serif;
+red-input:focus {
+  background: yellow;
+  color: red;
 }
 
-input {
-    margin: .4rem;
-}
